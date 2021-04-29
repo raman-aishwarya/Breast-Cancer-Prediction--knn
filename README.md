@@ -1,1 +1,3 @@
 # Breast-Cancer-Prediction--knn
+The dataset explanation can be found on https://www.kaggle.com/buddhiniw/breast-cancer-prediction/data?select=data.csv. 
+A knn model was chosen to be built because the response variable is categorical and most of the predictor variables are numeric and continuous in nature. The unnecessary variables were removed and standardization of data was done. The data was divided into training and testing. The value of k was calculated and dependent variable vector was created as per trainingn and testing sets. The knn model was then built and accuracy, sensitivity and specificity were calculated.
